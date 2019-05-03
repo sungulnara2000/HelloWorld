@@ -11,3 +11,5 @@ before_install:
 install:
     - cmake ..
     - make
+script:
+    - ./HelloWorld
