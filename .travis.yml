@@ -5,11 +5,13 @@ addons:
         packages:
             - cmake
 before_install:
-    - mkdir cmake_example
-    - cd cmake_example
+    - cd HelloWorld
     - mkdir build
     - cd build
 install:
     - cmake ..
+    - make
+script:
+    - ./main.cpp
 
 

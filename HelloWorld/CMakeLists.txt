@@ -3,6 +3,4 @@ project(HelloWorld)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(HelloWorld
-        main.cpp
-        README.md)
+add_executable(HelloWorld main.cpp)
