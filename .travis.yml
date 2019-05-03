@@ -12,6 +12,6 @@ install:
     - cmake ..
     - make
 script:
-    - ./Main
+    - ./main
 
 
