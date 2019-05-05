@@ -5,11 +5,11 @@ addons:
         packages:
             - cmake
 before_install:
-    - cd HelloWorld
+    - cd salesman_travis
     - mkdir build
     - cd build
 install:
     - cmake ..
     - make
 script:
-    - ./HelloWorld
+    - ./salesman
