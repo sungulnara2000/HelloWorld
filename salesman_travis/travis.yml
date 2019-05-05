@@ -1,0 +1,15 @@
+language: cpp
+os: linux
+addons:
+    apt:
+        packages:
+            - cmake
+before_install:
+    - cd salesman_travis
+    - mkdir build
+    - cd build
+install:
+    - cmake ..
+    - make
+script:
+    - ./salesman
